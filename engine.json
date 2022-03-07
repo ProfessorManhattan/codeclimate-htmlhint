@@ -1,0 +1,11 @@
+{
+  "name": "htmlhint",
+  "description": "Static code analysis tool you need for your HTML",
+  "maintainer": {
+    "name": "Brian Zalewski",
+    "email": "brian@megabyte.space"
+  },
+  "languages" : ["HTML"],
+  "version": "1.1.2",
+  "spec_version": "0.0.1"
+}

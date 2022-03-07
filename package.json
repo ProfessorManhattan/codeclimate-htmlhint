@@ -1,0 +1,29 @@
+{
+  "name": "codeclimate-htmllint",
+  "version": "1.0.0",
+  "description": "A Code Climate engine for html linter Htmllint",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:megabyte-labs/docker/codeclimate/htmlhint.git"
+  },
+  "keywords": [
+    "codeclimate",
+    "lint",
+    "htmllint"
+  ],
+  "author": "Mahesh Mahadevan",
+  "license": "MIT",
+  "dependencies": {
+    "cosmiconfig": "^7.0.1",
+    "fs": "0.0.1-security",
+    "glob": "^7.2.0",
+    "htmlhint": "^1.1.2"
+  }
+}
