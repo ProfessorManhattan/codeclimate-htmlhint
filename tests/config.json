@@ -1,0 +1,10 @@
+{
+  "extensions": [
+    ".html",
+    ".htm"
+  ],
+  "configFile": "/usr/src/app/tests/.htmlhintrc",
+  "exclude_patterns": [
+    "node_modules/"
+  ]
+}
