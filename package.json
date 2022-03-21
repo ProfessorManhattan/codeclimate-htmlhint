@@ -96,7 +96,10 @@
     "slug": "htmlhint",
     "subgroup": "codeclimate",
     "title": "HTMLHint CodeClimate Engine",
-    "versionCommand": "docker run -it megabytelabs/htmlhint:latest --version"
+    "versionCommand": "docker run -it megabytelabs/htmlhint:latest --version",
+    "github_id": "R_kgDOHClLDA",
+    "gitlab_project_id": "32219821",
+    "gitlab_group_id": "14556970"
   },
   "changelog": {
     "displayTypes": [
