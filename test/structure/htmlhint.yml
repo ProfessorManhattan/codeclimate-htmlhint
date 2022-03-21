@@ -1,0 +1,18 @@
+---
+schemaVersion: "2.0.0"
+
+commandTests:
+  - name: "Test htmlhint --help"
+    command: "htmlhint"
+    args: ["--help"]
+    expectedOutput: [".*htmlhint www/test.html.*"]
+
+metadataTest:
+  labels:
+    - key: 'maintainer'
+      value: 'Megabyte Labs <help@megabyte.space>'
+    - key: 'space.megabyte.type'
+      value: 'linter'
+  entrypoint: ["htmlhint"]
+  workdir: "/work"
+  user: "root"

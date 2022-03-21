@@ -1,0 +1,24 @@
+---
+schemaVersion: "2.0.0"
+
+commandTests:
+  - name: "Test htmlhint --help"
+    command: "htmlhint"
+    args: ["--help"]
+    expectedOutput: [".*htmlhint www/test.html.*"]
+  - name: "test command"
+    command: "sh"
+    args:
+      - -c
+      - codeclimate-htmlhint
+    expectedOutput: [".*Doctype must be declared first.*",".*Tag must be paired.*",".*title-require.*"]
+
+metadataTest:
+  labels:
+    - key: 'maintainer'
+      value: 'Megabyte Labs <help@megabyte.space>'
+    - key: 'space.megabyte.type'
+      value: 'codeclimate'
+  volumes: ["/code"]
+  workdir: "/code"
+  user: "app"

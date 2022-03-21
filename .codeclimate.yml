@@ -1,8 +1,0 @@
-version: "2"
-plugins:
-  htmlhint:
-    enabled: true
-    extensions: ['.html','.htm']
-    configFile: '.htmlhintrc'
-exclude_patterns:
-  - "node_modules/"

@@ -1,0 +1,11 @@
+{
+  "description": "A slim HTMLHint linter / CodeClimate engine for GitLab CI",
+  "languages": ["HTML"],
+  "maintainer": {
+    "email": "help@megabyte.space",
+    "name": "Megabyte Labs"
+  },
+  "name": "htmlhint",
+  "spec_version": "0.3.1",
+  "version": "2.9.2"
+}
